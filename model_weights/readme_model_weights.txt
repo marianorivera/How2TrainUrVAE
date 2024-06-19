@@ -1,1 +1,1 @@
-The weights files are larger than 100MB, try to train be your self the model. It takes about a 13 min per epoch (24000 256x256x3 celebHQ training images) in a Nvidia 3090 RTX. You can see how it performs after 50 epochs, 300-400 epochs are required for a complete training.
+The weights files are larger than 100MB. Meanwhile we upload the weights, try to train the model by yourself. It takes about a 13 min per epoch (24000 256x256x3 celebHQ training images) in a NVidia 3090 RTX. You can see how it performs after 50 epochs, 300-400 epochs are required for a complete training.
