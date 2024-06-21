@@ -15,8 +15,8 @@ import keras
 from keras.models import Model, Sequential
 from keras import layers
 
-#  Self PixelAttention Layer
-from pixel_attention import PixelAttention2D_v1
+# Self PixelAttention Layer
+# from pixel_attention import PixelAttention2D_v1
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # ResEncoder and ResDecodes Version 1
@@ -194,7 +194,8 @@ def ResEncoder(input_dim=(32,32,1), latent_dim=32, num_hidden_residuals_blocks=2
 
     if attention:
         #x = PixelAttention2D_v1(latent_dim)(x)
-        x = Multihead_PixelAttention_v1(latent_dim)(x,x)  # default: 3 heads
+        #x = Multihead_PixelAttention_v1(latent_dim)(x,x)  # default: 3 heads
+        pass
     else:
         x = layers.Conv2D(latent_dim, 1, padding="same")(x)
         
