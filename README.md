@@ -4,7 +4,7 @@
 
 Code for 
 
-M. Rivera, How to train your VAE, ICIP 2024.
+M. Rivera, How to train your VAE, ICIP 2024. [ArXiv](https://arxiv.org/abs/2309.13160)
 
 **By**
 
